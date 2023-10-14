@@ -1,0 +1,28 @@
+.startPage {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+
+    .form {
+        margin-top: 100px;
+        display: inline-flex;
+    }
+
+    .all-posts {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+
+        .post {
+            flex: 1 1 33%;
+            // display: flex;
+            margin: 20px;
+            // width: 100%;
+            // align-items: center;
+            // justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+.navbar {
+    background-color: $backgroundCl;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .home {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        text-decoration: none;
+
+        .homeName {
+            display: flex;
+            color: $colorCompany;
+            margin: 0px;
+            margin-left: 10px;
+            font-size: 51px
+        }
+
+        .homeLogo {
+            display: flex;
+            width: 4%;
+        }
+    }
+}

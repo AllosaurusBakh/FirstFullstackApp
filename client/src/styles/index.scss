@@ -1,0 +1,31 @@
+@import 'fonts.scss';
+@import 'variables.scss';
+
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+    font-family: '';
+    background-color: $backgroundCl;
+}
+
+button, 
+input, 
+textarea,
+p,
+h1, 
+a {
+    font-family: 'Yandex Sans Display';
+}
+
+body {
+    font-family: system-ui;
+    margin: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
